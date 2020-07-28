@@ -37,7 +37,7 @@ describe("Does data match", () => {
   }
 });
 
-describe("data has an id property", () => {
+describe("data has a specific property", () => {
   for (let item of data) {
     test("delectus aut autem", () => {
       expect(item).toHaveProperty("id");
