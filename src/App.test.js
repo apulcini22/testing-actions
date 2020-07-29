@@ -16,7 +16,7 @@ describe("Does button have submit value", () => {
     const { getByTestId } = render(<App />); // Use render part to get the element you are looking for
     const button = getByTestId("button");
     expect(button).toHaveAttribute("type", "button");
-    expect(button).toHaveTextContent("Bye");
+    expect(button).toHaveTextContent("Click Me");
   });
 });
 
